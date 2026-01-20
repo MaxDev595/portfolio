@@ -1,0 +1,49 @@
+@import url("main.css");
+@import url("fonts.css");
+
+:root {
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-gray: #929292;
+    --color-beige: #E9E9E9;
+    --color-light-green: #DFECC6;
+    --color-green: #8E9C78;
+    --color-rifle-green: #485C11;
+    --text-fonts: 'DMSans', sans-serif;
+    --title-fonts: 'CrimsonText';
+    --labels-fonts: 'RobotoMono';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: auto;
+}
+
+body {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    font-family: var(--text-fonts);
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+.container {
+    margin: auto;
+    padding: auto;
+    max-width: 1280px;
+    height: auto;
+}
+
+.row {
+    margin: auto;
+    padding: auto;
+    max-width: 1200px;
+    height: auto;
+}
+
